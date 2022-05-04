@@ -6,14 +6,16 @@ body{
     background-position:bottom;
     background-size: cover;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: larger;
+    
 }
-h1{
-    color: black;
-    margin-bottom: 3rem;
+#cinema{
+    display: block;
+    margin: auto;
 }
-
-section{
+.titulos{
+    font-size: 3rem;
+}
+section#A{
     text-align: justify;
     max-width: 1200px;
     margin: auto;
@@ -30,6 +32,7 @@ box-shadow: 0px 0px 0px 8px #353434, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px 
 background: radial-gradient(circle, rgba(241,240,246,1) 36%, rgba(25,25,25,1) 100%);
 }
 .fila{
+    font-size: larger;
     display: flex;
     width: 100%;
     align-content: space-between;
@@ -45,7 +48,6 @@ p>img{
 
 h1,h2{
     text-align: center;
-
 }
 .peli{
     font-style: italic;
@@ -104,4 +106,23 @@ article{
         padding: 0rem;
     }
 
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 1rem;
+
+}
+th,td{
+    padding: 0.5rem;
+    border: 1px black solid;
+}
+td>img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.fotos{
+    padding: 0;
+    width: 30%;
 }
