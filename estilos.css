@@ -51,8 +51,14 @@ h1,h2{
     font-style: italic;
 }
 button{
-    
+    background-image: url('assets/img/bgButton.jpg');
+    background-size: 100%;
+    background-position: 30% 60%;
     display: block;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
     
 }
 article{
