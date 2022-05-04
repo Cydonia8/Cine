@@ -90,9 +90,9 @@
                         octubre de 1964, su vida estuvo influenciada desde muy temprano por los monstruos y las criaturas fantásticas, aspecto que queda más que claro en todas sus obras.
                         Al igual que ocurre con la mayoría de directores, su amor por el cine surge desde la juventud. En su caso, debido a ser un joven muy creativo y con propensión a 
                         tener sueños en los que aparecían monstruos, desarrolló un especial cariño por el cine fantástico y las criaturas extrañas. Esto se puede ver en sus primeras películas,
-                        <span>Cronos</span> o <span>El Espinazo del Diablo</span>, ambas con presencia de seres extraños y fantasmas. Sería con <span>El Laberinto del Fauno</span> cuando 
+                        <span class="peli">Cronos</span> o <span class="peli">El Espinazo del Diablo</span>, ambas con presencia de seres extraños y fantasmas. Sería con <span class="peli">El Laberinto del Fauno</span> cuando 
                         llegaría su verdadera consagración como director de renombre, película ambientada en la Guerra Civil Española. A partir de aquí no dejaría de firmar películas de gran 
-                        categoría, como la saga de <span>Hellboy</span> o la oscarizada <span>La Forma del Agua</span>. Su último trabajo, <span>El Callejón de las Almas Perdidas</span>, es un
+                        categoría, como la saga de <span class="peli">Hellboy</span> o la oscarizada <span class="peli">La Forma del Agua</span>. Su último trabajo, <span class="peli">El Callejón de las Almas Perdidas</span>, es un
                         remake de una película de 1947, y como no podía ser de otra forma, se cimenta sobre la cultura de los monstruos y los freaks.
 
                         
@@ -105,7 +105,7 @@
         
     </section>
     <section id="tabla">
-        <h2>Películas Legendarias</h2>
+        <h2 class="titulos">Películas Legendarias</h2>
         <table>
             <thead>
                 <tr>
@@ -126,7 +126,9 @@
                     <td class="fotos">
                         <img src="assets/img/godfather.jpg" alt="">
                     </td>
-                    <td></td>
+                    <td class="videos">
+                        <iframe src="https://www.youtube.com/embed/UaVTIH8mujA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
                 </tr>
                 <tr>
                     <td>Zodiac</td>
@@ -136,7 +138,9 @@
                     <td class="fotos">
                         <img src="assets/img/zodiac.webp" alt="">
                     </td>
-                    <td></td>
+                    <td>
+                        
+                    </td>
                 </tr>
                 <tr>
                     <td>La Lista de Schindler</td>
@@ -190,6 +194,38 @@
                 </tr>
             </tbody>
         </table>
+    </section>
+
+    <section id="form">
+        <h2 class="titulos">Contacto</h2>
+        <div id="wrapperForm">            
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.44819243839!2d-118.32153228478411!3d34.08365708059732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9543627dafd%3A0x4adc1997cbc49770!2sParamount%20Pictures%20Studios!5e0!3m2!1ses!2ses!4v1651692539281!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="formulario">
+                <form action="">
+                    <div id="row1">
+                        <div class="lineas">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </div>
+                        <div class="lineas">
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo">
+                        </div>
+                    </div>
+                    <div id="row2">
+                        <h4>Contacto:</h4>
+                        <textarea name="contacto" id="contacto" cols="30" rows="10"></textarea>
+                    </div>
+                    <div id="row3">
+                        <input type="checkbox" id="acepta" name="acepta">
+                        <label for="acepta">Acepto que mis fotos personales pasen a ser propiedad de Harvey Weinstein</label>
+                    </div>
+                    <button id="botonForm" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>
