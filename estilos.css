@@ -5,7 +5,8 @@ body{
     background-image: url('assets/img/bg.jpg');
     background-position:bottom;
     background-size: cover;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: larger;
 }
 h1{
     color: black;
@@ -13,10 +14,11 @@ h1{
 }
 
 section{
+    text-align: justify;
     max-width: 1200px;
     margin: auto;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 20px;
@@ -38,6 +40,7 @@ p>img{
     width: 40%;
     float: right;
     margin-left: 0.5em;
+    border-radius: 20px;
 }
 
 h1,h2{
