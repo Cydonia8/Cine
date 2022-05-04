@@ -52,14 +52,18 @@ h1,h2{
 }
 button{
     background-image: url('assets/img/bgButton.jpg');
-    background-size: 100%;
+    background-size: 90%;
     background-position: 30% 60%;
     display: block;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: larger;
     font-weight: bold;
-    color: whitesmoke;
-    
+    color: #AAAAAA00;    
+}
+
+button:hover{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0);
 }
 article{
     margin: 1rem;
