@@ -140,7 +140,7 @@ h4{
     width: 100%;
     margin-top: 1rem;
     font-family: 'Pathway Gothic One', sans-serif;
-    
+
 }
 @media(min-width: 576px) and (max-width: 1200px){
     section{
@@ -152,6 +152,9 @@ h4{
     .fila{
         display: flex;
         flex-wrap: nowrap;
+        width: 100%;
+    }
+    #wrapperForm{
         width: 100%;
     }
 }
