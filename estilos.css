@@ -166,11 +166,20 @@ textarea{
 }
 
 @media(max-width: 576px){
+    #cinema{
+        width: 90%;
+    }
+    table{
+        display: none;
+    }
     .contenido img{
         width: 50%;
     }
     article{
         width: 90%;
+    }
+    .lineas{
+        margin-right: 0;
     }
     .fila{
         display: flex;
@@ -193,8 +202,7 @@ textarea{
         width: 100%;
     }
     #formulario{
-        display: flex;
-        justify-content: space-around;
+        width: 100%;
     }
 
 }
