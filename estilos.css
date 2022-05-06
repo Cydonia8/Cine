@@ -103,16 +103,17 @@ td{
     background-color: #ddcbb3bb;
 }
 
+#mapa iframe{
+    width: 100%;
+}
+
 #mapa{
     width: 50%;
-    margin-right: 1rem;
-    display: flex;
 }
 #formulario{
     width: 50%;
     color: black;
-    display: flex;
-    justify-content: space-around;
+
 }
 #wrapperForm > div{
     margin: 1rem;
@@ -139,7 +140,6 @@ h4{
 }
 
 #botonForm{
-    display: block;
     width: 100%;
     margin-top: 1rem;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -179,11 +179,20 @@ textarea{
     article{
         margin: 0px;
     }
+    #cinema{
+        width: 90%;
+    }
+    table{
+        display: none;
+    }
     .contenido img{
         width: 50%;
     }
     article{
         width: 90%;
+    }
+    .lineas{
+        margin-right: 0;
     }
     .fila{
         display: flex;
@@ -204,7 +213,9 @@ textarea{
     }
     #mapa{
         width: 100%;
-        display: flex;
+    }
+    #formulario{
+        width: 100%;
     }
 
 }
