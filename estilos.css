@@ -162,10 +162,23 @@ textarea{
     }
     #wrapperForm{
         width: 100%;
+        box-sizing: border-box;
+    }
+    #formulario{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
 @media(max-width: 576px){
+    #A{
+        align-items: center;
+        padding: 0rem;
+    }
+    article{
+        margin: 0px;
+    }
     .contenido img{
         width: 50%;
     }
