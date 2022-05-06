@@ -11,6 +11,7 @@ body{
 #cinema{
     display: block;
     margin: auto;
+    margin-bottom: 3rem;
 }
 .titulos{
     font-size: 3rem;
@@ -24,11 +25,9 @@ section#A{
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 20px;
-    background-color: #555252AA;
-    -webkit-box-shadow: 0px 0px 0px 8px #353434, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 0px 0px 8px #353434, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
-    background: rgb(241,240,246);
-    background: radial-gradient(circle, rgba(241,240,246,1) 36%, rgba(25,25,25,1) 100%);
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 18px 17px 14px 3px rgba(0,0,0,0.53); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 18px 17px 14px 3px rgba(0,0,0,0.53);
+    background: radial-gradient(circle, rgba(241,240,246,0.5) 36%, rgba(25,25,25,0.8) 100%);
     margin-bottom: 4rem;
 }
 .fila{
@@ -102,6 +101,9 @@ td>img{
 td{
     background-color: #ddcbb3bb;
 }
+#movil{
+    display: none;
+}
 
 #mapa iframe{
     width: 100%;
@@ -113,6 +115,8 @@ td{
 #formulario{
     width: 50%;
     color: black;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 #wrapperForm > div{
@@ -176,13 +180,16 @@ textarea{
         align-items: center;
         padding: 0rem;
     }
+    #movil{
+        display: table;
+    }
     article{
         margin: 0px;
     }
     #cinema{
         width: 90%;
     }
-    table{
+    #tabla table:first-of-type{
         display: none;
     }
     .contenido img{
@@ -193,12 +200,17 @@ textarea{
     }
     .lineas{
         margin-right: 0;
+        display: flex;
+        flex-direction: column;
     }
     .fila{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-content: center;
+    }
+    #row1 input{
+        width: 100%;
     }
     section{
         padding: 0rem;
@@ -215,7 +227,15 @@ textarea{
         width: 100%;
     }
     #formulario{
-        width: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #row1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 }
