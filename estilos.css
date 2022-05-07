@@ -93,6 +93,7 @@ th,td{
 td>img{
     width: 100%;
     vertical-align: bottom;
+    object-fit: cover;
 }
 .fotos{
     padding: 0;
@@ -103,8 +104,18 @@ td>img{
     background-image: url('assets/img/pianobg.jpeg');
     background-position: center;
     background-size: cover;
-    filter: blur(1.75px);
     padding: 0;
+}
+audio{
+    transition: transform 220ms linear;
+    transition-delay: 100ms;
+    
+    
+}
+audio:focus{
+    
+    transform: scale(0.9) translate(0,130%);
+    
 }
 
 td{
@@ -181,6 +192,13 @@ textarea{
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
+    }
+    audio{
+        width: 100%;
+        transform:scale(1);
+    }
+    .muestrasBSO{
+        width: 15%;
     }
 }
 
