@@ -222,6 +222,9 @@ textarea{
     #movil{
         display: table;
     }
+    .lista:focus::-webkit-media-controls-enclosure {
+        background-color: #97291abb;
+    }
     article{
         margin: 0px;
     }
