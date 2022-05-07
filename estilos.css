@@ -129,11 +129,13 @@ td{
 }
 
 #mapa iframe{
-    width: 100%;
+    width: 70%;
 }
 
 #mapa{
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 #formulario{
     width: 50%;
@@ -269,6 +271,9 @@ textarea{
         width: 100%;
     }
     #mapa{
+        width: 100%;
+    }
+    #mapa iframe{
         width: 100%;
     }
     #formulario{
