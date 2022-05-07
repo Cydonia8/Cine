@@ -95,6 +95,9 @@ td>img{
     vertical-align: bottom;
     object-fit: cover;
 }
+.lista:focus::-webkit-media-controls-enclosure {
+    background-color: #97291abb;
+}
 .fotos{
     padding: 0;
     width: 30%;
