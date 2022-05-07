@@ -81,7 +81,7 @@ table{
     font-weight: bolder;
     width: 90%;
 }
-thead{
+th{
     background-color: #353434CC;
     color: white;
 }
@@ -197,8 +197,17 @@ textarea{
         width: 100%;
         transform:scale(1);
     }
+    audio:focus{
+        transform: none;        
+    }
     .muestrasBSO{
-        width: 15%;
+        width: 40%;
+    }
+    .fotos{
+        width: 40%;
+    }
+    .fotos img{
+        object-fit: cover;
     }
 }
 
@@ -218,6 +227,9 @@ textarea{
     }
     #tabla table:first-of-type{
         display: none;
+    }
+    audio:focus{
+        transform: none;        
     }
     .contenido img{
         width: 50%;
