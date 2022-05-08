@@ -169,6 +169,14 @@ h4{
     margin: 0px;
     margin-top: 0.5rem;
 }
+.lineas input{
+    background-color: #00000044;
+    border: none;
+}
+textarea{
+    background-color: #00000044;
+    border: none;
+}
 
 #botonForm{
     width: 100%;
