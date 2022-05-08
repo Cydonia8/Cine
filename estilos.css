@@ -193,6 +193,9 @@ textarea{
         width: 100%;
         box-sizing: border-box;
     }
+    #mapa iframe{
+        width: 100%;
+    }
     #formulario{
         box-sizing: border-box;
         display: flex;
