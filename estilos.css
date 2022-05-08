@@ -142,6 +142,7 @@ td{
     color: black;
     display: flex;
     flex-wrap: wrap;
+    font-size: 1.15em;
 
 }
 #wrapperForm > div{
@@ -167,14 +168,15 @@ td{
 
 h4{
     margin: 0px;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
 }
 .lineas input{
-    background-color: #00000044;
+    background-color: #f7f3f388;
     border: none;
 }
 textarea{
-    background-color: #00000044;
+    background-color: #f7f3f388;
     border: none;
 }
 
@@ -183,6 +185,7 @@ textarea{
     margin-top: 1rem;
     font-family: 'Pathway Gothic One', sans-serif;
     background-color: #ddcbb3bb;
+    font-size: 1.1em;
 }
 textarea{
     resize: vertical;
