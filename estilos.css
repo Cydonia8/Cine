@@ -189,6 +189,7 @@ textarea{
 }
 textarea{
     resize: vertical;
+    width: 100%
 }
 @media(min-width: 576px) and (max-width: 1200px){
     section{
