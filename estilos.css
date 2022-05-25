@@ -3,10 +3,53 @@ body{
     background-color: black;
     box-sizing: border-box;
     background-image: url('assets/img/bg.jpg');
-    background-position:bottom;
+    background-position: bottom;
     background-size: cover;
     font-family: 'Pathway Gothic One', sans-serif;
     
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: #ddcbb3bb;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav{
+    width: 30%;
+}
+#enlaces-pagina{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#acceso{
+    display: flex;
+    flex-direction: column;
+    
+}
+#acceso button{
+    display: block;
+    width: 100%;
+}
+#redes{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 10%;
+    margin: 0.5rem 0;
 }
 #cinema{
     display: block;
