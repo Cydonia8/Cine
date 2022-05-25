@@ -242,7 +242,7 @@ textarea{
 }
 #gridAjedrez{
     display: grid;
-    background-image: url('assets/img/tablero.png');
+    background-image: url('assets/img/tablero2.png');
     grid-template-columns: repeat(8, 64px);
     grid-template-rows: repeat(8, 64px);
     background-size: 100%;
@@ -250,6 +250,14 @@ textarea{
     margin: auto;
     width: 512px;
 
+}
+.piezas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piezas img{
+    width: 90%;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
