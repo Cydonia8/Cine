@@ -392,8 +392,12 @@ box-shadow: 5px 5px 15px 5px #000000;
     article{
         margin: 0px;
     }
+    #gridAjedrez{
+        display: none;
+    }
     nav{
         width: 100%;
+        flex-wrap: wrap;
     }
     .izquierda{
         justify-content: space-between;
