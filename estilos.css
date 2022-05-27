@@ -401,6 +401,9 @@ box-shadow: 5px 5px 15px 5px #000000;
     #cinema{
         width: 90%;
     }
+    #redes{
+        width: 50%;
+    }
     #tabla table:first-of-type{
         display: none;
     }
