@@ -397,12 +397,14 @@ box-shadow: 5px 5px 15px 5px #000000;
     }
     .izquierda{
         justify-content: space-between;
+        flex-direction: column;
     }
     #cinema{
         width: 90%;
     }
     #redes{
         width: 50%;
+        align-items: center;
     }
     #tabla table:first-of-type{
         display: none;
