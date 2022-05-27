@@ -129,10 +129,53 @@ h1,h2{
     color: #AAAAAA00;    
 }
 
-button:hover{
+header button:hover{
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0); 
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0);
 }
+.botonA a{
+    text-decoration: none;
+    color: black;
+}
+.botonA {
+    display: inline-block;
+    border-radius: 4px;
+    background: linear-gradient(0deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .botonA span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: black;
+  }
+  
+  .botonA span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .botonA:hover span {
+    padding-right: 25px;
+    font-family: inherit;
+  }
+  
+  .botonA:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 article{
     margin: 1rem;
     width: 46%;
@@ -168,13 +211,6 @@ td>img{
 .fotos{
     padding: 0;
     width: 30%;
-}
-.muestrasBSO{   
-    width: 20%;
-    background-image: url('assets/img/pianobg.jpeg');
-    background-position: center;
-    background-size: cover;
-    padding: 0;
 }
 audio{
     transition: transform 220ms linear;
