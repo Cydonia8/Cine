@@ -47,6 +47,7 @@ nav a{
     flex-wrap: wrap;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    font-size: 1.2em;
 }
 #acceso button{
     display: block;
@@ -64,6 +65,15 @@ nav a{
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+}
+#twitter{
+    color: rgb(14, 105, 223);
+}
+#spotify{
+    color: rgb(74, 212, 20);
+}
+#youtube{
+    color: rgb(227, 15, 15);
 }
 #logo{
     width: 10%;
@@ -129,12 +139,21 @@ h1,h2{
     color: #AAAAAA00;    
 }
 header button{
-    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0); 
-    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0);
+    background: linear-gradient(0deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
 }
 header button:hover{
-    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0); 
-    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 21px 26px 42px 23px rgba(15,65,255,0);
+    cursor: pointer;
+    letter-spacing: 0.6rem;
+}
+#botonForm:hover{
+    cursor: pointer;
+    letter-spacing: 0.6rem;
+}
+header button:hover{
+    transition-duration: 500ms;
+}
+#botonForm:hover{
+    transition-duration: 500ms;
 }
 .botonA a{
     text-decoration: none;
@@ -350,7 +369,7 @@ textarea{
 }
 #gridAjedrez{
     display: grid;
-    background-image: url('assets/img/tablero.png');
+    background-image: url('../tablero.jpeg');
     grid-template-columns: repeat(8, 64px);
     grid-template-rows: repeat(8, 64px);
     background-size: 100%;
@@ -373,6 +392,9 @@ box-shadow: 5px 5px 15px 5px #000000;
 .vacio{
     grid-row: 3/7;
     grid-column: 1/-1;
+}
+footer{
+    background-color: black;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
@@ -447,7 +469,8 @@ box-shadow: 5px 5px 15px 5px #000000;
         flex-direction: column;
     }
     #cinema{
-        width: 90%;
+        width: 60%;
+        padding-top: 15rem;
     }
     #redes{
         width: 50%;
