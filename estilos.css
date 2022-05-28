@@ -394,7 +394,24 @@ box-shadow: 5px 5px 15px 5px #000000;
     grid-column: 1/-1;
 }
 footer{
-    background-color: black;
+    background-color: #000000CC;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer article{
+    margin-bottom: 0;
+}
+footer ul{
+    list-style:square;
+}
+footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
