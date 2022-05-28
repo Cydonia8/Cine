@@ -402,16 +402,31 @@ footer{
 footer article{
     margin-bottom: 0;
 }
-footer ul{
+footer ul:first-of-type{
     list-style:square;
 }
-footer li:hover{
+#interes li:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 footer ul a{
     text-decoration: none;
     color: white;
+}
+#localizacion li{
+    list-style: none;
+    margin-bottom: 0.2rem;
+}
+footer ul{
+    padding: 0;
+}
+#contactoExtra{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#contactoExtra h4{
+    align-self: flex-end;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
