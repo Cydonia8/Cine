@@ -7,16 +7,24 @@ body{
     background-size: cover;
     font-family: 'Pathway Gothic One', sans-serif;    
 }
+@font-face {
+    font-family: 'Schindler';
+    src: url('fonts/ShindlerFont_by_Juan_Casco.ttf');
+}
+@font-face {
+    font-family: 'Love Series';
+    src: url('fonts/LoveSeriesDemoRegular.ttf');
+}
 header{
     width: 100%;
     position: fixed;
     display: flex;
-    background: rgb(14,13,33);
-    background: linear-gradient(0deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
+    background: linear-gradient(0deg, rgba(14,13,33,0.85) 1%, rgba(194,165,124,0.85) 36%);
     border-bottom: 3px dashed rgb(90, 87, 87);
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: 'Schindler';
 }
 .izquierda{
     display: flex;
@@ -40,6 +48,7 @@ nav{
 nav a{
     text-decoration: none;
     color: black;
+    font-size: 1.3em;
 }
 #acceso{
     display: flex;
@@ -97,6 +106,7 @@ nav a{
 }
 .titulos{
     font-size: 3rem;
+    font-family: 'Schindler';
 }
 section#A{
     text-align: justify;
@@ -401,6 +411,9 @@ footer{
     color: white;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Schindler';
+    word-spacing: 0.5rem;
+    font-size: 1.1em;
 }
 footer article{
     margin-bottom: 0;
