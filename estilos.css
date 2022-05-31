@@ -5,7 +5,7 @@ body{
     background-image: url('assets/img/bg.jpg');
     background-position: bottom;
     background-size: cover;
-    font-family: 'Pathway Gothic One', sans-serif;    
+    font-family: 'Josefin Sans', sans-serif;
 }
 @font-face {
     font-family: 'Schindler';
@@ -122,6 +122,9 @@ section#A{
     background: radial-gradient(circle, rgba(241,240,246,0.5) 36%, rgba(25,25,25,0.8) 100%);
     margin-bottom: 4rem;
 }
+article{
+    line-height: 25px;
+}
 .fila{
     font-size: larger;
     display: flex;
@@ -143,7 +146,7 @@ h1,h2{
 }
 #A button{
     display: block;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'LoveSeries';
     font-size: larger;
     font-weight: bold;
     color: #AAAAAA00;    
@@ -378,7 +381,7 @@ textarea{
     grid-column: 10/-1;
 }
 #ajedrez{
-    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 #gridAjedrez{
     display: grid;
@@ -411,7 +414,6 @@ footer{
     color: white;
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Schindler';
     word-spacing: 0.5rem;
     font-size: 1.1em;
 }
