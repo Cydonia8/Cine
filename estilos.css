@@ -367,6 +367,9 @@ textarea{
     grid-row: 3/-1;
     grid-column: 10/-1;
 }
+#ajedrez{
+    padding-top: 5rem;
+}
 #gridAjedrez{
     display: grid;
     background-image: url('assets/img/tablero.jpeg');
