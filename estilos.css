@@ -3,7 +3,7 @@ body{
     background-color: black;
     box-sizing: border-box;
     background-image: url('assets/img/bg.jpg');
-    background-position: 75% 60%;
+    background-position: 70% 60%;
     background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -241,23 +241,10 @@ td>img{
     vertical-align: bottom;
     object-fit: cover;
 }
-.lista:focus::-webkit-media-controls-enclosure {
-    background-color: #97291abb;
-}
+
 .fotos{
     padding: 0;
     width: 30%;
-}
-audio{
-    transition: transform 220ms linear;
-    transition-delay: 100ms;
-    
-    
-}
-audio:focus{
-    
-    transform: scale(0.9) translate(0,130%);
-    
 }
 
 td{
@@ -282,6 +269,7 @@ td{
     display: flex;
     flex-wrap: wrap;
     font-size: 1.15em;
+    font-weight: bolder;
 
 }
 #wrapperForm > div{
