@@ -153,7 +153,7 @@ h1,h2{
     color: #AAAAAA00;    
 }
 header button{
-    background: linear-gradient(0deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
+    background: linear-gradient(139deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
 }
 header button:hover{
     cursor: pointer;
