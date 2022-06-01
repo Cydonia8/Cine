@@ -387,8 +387,10 @@ textarea{
     margin: auto;
     width: 512px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
-    border: 20px solid transparent;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-style: solid;
+    border-image: linear-gradient(139deg, rgba(14,13,33,0.85) 1%, rgba(194,165,124,0.85) 36%) 1;
+    border-width: 20px;
 }
 .piezas{
     display: flex;
@@ -409,7 +411,7 @@ footer{
     justify-content: space-evenly;
     word-spacing: 0.5rem;
     font-size: 1.1em;
-    align-items: flex-end;
+    align-items: center;
 }
 footer article{
     margin-bottom: 0;
@@ -446,6 +448,9 @@ footer ul{
     display: block;
     margin: auto;
     margin-bottom: 0.5rem;
+}
+.logo-final{
+    align-self: flex-end;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
