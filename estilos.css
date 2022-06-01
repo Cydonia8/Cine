@@ -588,5 +588,8 @@ footer ul{
         flex-direction: column;
         align-items: flex-start;
     }
+    #gridAjedrez{
+        border: none;
+    }
 
 }
