@@ -404,9 +404,11 @@ footer{
     justify-content: space-evenly;
     word-spacing: 0.5rem;
     font-size: 1.1em;
+    align-items: flex-end;
 }
 footer article{
     margin-bottom: 0;
+    margin-left: 1.5rem;
 }
 footer ul:first-of-type{
     list-style:square;
@@ -433,6 +435,12 @@ footer ul{
 }
 #contactoExtra h4{
     align-self: flex-end;
+}
+.logo-final img{
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5rem;
 }
 
 @media(min-width: 576px) and (max-width: 1200px){
