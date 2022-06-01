@@ -154,6 +154,8 @@ h1,h2{
 }
 header button{
     background: linear-gradient(139deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
+    border-radius: 9px;
+    border: 1px solid black;
 }
 header button:hover{
     cursor: pointer;
@@ -313,6 +315,9 @@ textarea{
     font-family: 'Pathway Gothic One', sans-serif;
     background-color: #ddcbb3bb;
     font-size: 1.1em;
+    background: linear-gradient(139deg, rgba(14,13,33,0.6) 1%, rgba(194,165,124,0.6) 36%);
+    border: 1px solid black;
+    border-radius: 9px;
 }
 textarea{
     resize: vertical;
