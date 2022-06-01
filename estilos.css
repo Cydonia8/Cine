@@ -43,6 +43,11 @@ nav{
     font-size: 1.4em;
     
 }
+header input{
+    border: none;
+    border-bottom: 2px solid rgba(14,13,33,0.85);
+    background-color: #00000000;
+}
 #enlaces-pagina li:hover{
     text-decoration: underline;
 }
