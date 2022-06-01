@@ -20,7 +20,7 @@ header{
     width: 100%;
     position: fixed;
     display: flex;
-    background: linear-gradient(0deg, rgba(14,13,33,0.85) 1%, rgba(194,165,124,0.85) 36%);
+    background: linear-gradient(139deg, rgba(14,13,33,0.85) 1%, rgba(194,165,124,0.85) 36%);
     border-bottom: 3px dashed rgb(90, 87, 87);
     align-items: center;
     flex-wrap: wrap;
