@@ -344,7 +344,7 @@ textarea{
     object-fit: cover;
 }
 #compoCentro{
-    grid-row: 6/-1;
+    grid-row: 5/-1;
     grid-column: 5/10;
 }
 #compo1{
@@ -360,7 +360,7 @@ textarea{
     grid-column: 4/7;
 }
 #compo4{
-    grid-row: 1/6;
+    grid-row: 1/5;
     grid-column: 5/10;
 }
 #compo2{
