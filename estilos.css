@@ -278,6 +278,7 @@ td{
     flex-wrap: wrap;
     font-size: 1.15em;
     font-weight: bolder;
+    align-items: center;
 
 }
 #wrapperForm > div{
